@@ -3,9 +3,9 @@ import Hero from "@/components/home/Hero";
 import Stats from "@/components/home/Stats";
 import Features from "@/components/home/Features";
 import Categories from "@/components/home/Categories";
-// import HowItWorks from "@/components/home/HowItWorks";
-// import Testimonials from "@/components/home/Testimonials";
-// import Newsletter from "@/components/home/Newsletter";
+import HowItWorks from "@/components/home/HowItWorks";
+import Testimonials from "@/components/home/Testimonials";
+import Newsletter from "@/components/home/Newsletter";
 
 export default function HomePage() {
   return (
@@ -14,9 +14,9 @@ export default function HomePage() {
       <Stats />
       <Features />
       <Categories />
-      {/* <HowItWorks /> */}
-      {/* <Testimonials /> */}
-      {/* <Newsletter /> */}
+      <HowItWorks />
+      <Testimonials />
+      <Newsletter />
     </main>
   );
 }
